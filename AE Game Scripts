@@ -1,7 +1,3 @@
-wait(3)
-OrionLib:Destroy()
-
 if game.PlaceId == 11545598432 then
-
-  end
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Redwayzero/SW-HUB-V3-Premium-/main/Sw%20Hub%20V3%20Premium')))()
 end
