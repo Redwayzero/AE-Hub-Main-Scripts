@@ -1,3 +1,13 @@
-if game.PlaceId == 11545598432 then
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Redwayzero/SW-HUB-V3-Premium-/main/Sw%20Hub%20V3%20Premium')))()
+
+--AFS
+
+if game.PlaceId == 4042427666 then
+
 end
+
+--AFSX
+
+if game.PlaceId == 11545598432 then
+
+end
+
