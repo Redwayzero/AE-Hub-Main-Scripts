@@ -1,13 +1,21 @@
+local gamePlaceIds = {
+    4042427666,   -- AFS
+    11545598432,  -- AFSX
+    -- Add more PlaceIds for other games here
+}
 
---AFS
+local currentPlaceId = game.PlaceId
 
-if game.PlaceId == 4042427666 then
-
+if table.find(gamePlaceIds, currentPlaceId) then
+    if currentPlaceId == 4042427666 then
+        -- Code for PlaceId 4042427666 (AFS)
+        
+    elseif currentPlaceId == 11545598432 then
+        -- Code for PlaceId 11545598432 (AFSX)
+        
+    -- Add more elseif blocks for other game PlaceIds here
+    
+    end
+else
+    -- Default code for non-game PlaceIds
 end
-
---AFSX
-
-if game.PlaceId == 11545598432 then
-
-end
-
