@@ -1,7 +1,6 @@
 local gamePlaceIds = {
     4042427666,   -- AFS
     11545598432,  -- AFSX
-    -- Add more PlaceIds for other games here
 }
 
 local currentPlaceId = game.PlaceId
@@ -11,7 +10,7 @@ if table.find(gamePlaceIds, currentPlaceId) then
         -- Code for PlaceId 4042427666 (AFS)
         
     elseif currentPlaceId == 11545598432 then
-        -- Code for PlaceId 11545598432 (AFSX)
+        https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx
         
     -- Add more elseif blocks for other game PlaceIds here
     
