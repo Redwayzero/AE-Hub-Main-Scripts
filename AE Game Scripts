@@ -8,13 +8,16 @@ local currentPlaceId = game.PlaceId
 if table.find(gamePlaceIds, currentPlaceId) then
     if currentPlaceId == 4042427666 then
         -- Code for PlaceId 4042427666 (AFS)
+        -- Replace this with your code for AFS
         
     elseif currentPlaceId == 11545598432 then
-        https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx
-        
-    -- Add more elseif blocks for other game PlaceIds here
-    
+        local loadstringURL = "https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx"
+        local loadstringScript = game:HttpGet(loadstringURL)
+        loadstring(loadstringScript)()
     end
+    -- Add more elseif blocks for other game PlaceIds here
 else
-loadstring(game:HttpGet(('https://pastebin.com/raw/NiEmSuNH')))() 
+    local loadstringURL = "https://pastebin.com/raw/NiEmSuNH"
+    local loadstringScript = game:HttpGet(loadstringURL)
+    loadstring(loadstringScript)()
 end
