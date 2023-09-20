@@ -1,7 +1,7 @@
 local gamePlaceScripts = {
     [4042427666] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS
     [11545598432] = "https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx", -- AFSX
-    -- Add more game PlaceIds and their corresponding URLs here
+    [7220975160] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS
 }
 
 local currentPlaceId = game.PlaceId
