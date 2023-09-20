@@ -1,6 +1,7 @@
-local gamePlaceIds = {
-    4042427666, -- AFS
-    11545598432 -- AFSX
+local gamePlaceScripts = {
+    [4042427666] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS
+    [11545598432] = "https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx", -- AFSX
+    -- Add more game PlaceIds and their corresponding URLs here
 }
 
 local currentPlaceId = game.PlaceId
@@ -19,16 +20,11 @@ local function loadScript(url)
     end
 end
 
-if table.find(gamePlaceIds, currentPlaceId) then
-    if currentPlaceId == 4042427666 or currentPlaceId == 7220975160 or currentPlaceId == 5113678354 or currentPlaceId == 5113680396 then
-        local loadstringURL = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs"
-        loadScript(loadstringURL)
-    elseif currentPlaceId == 11545598432 then
-        local loadstringURL = "https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx"
-        loadScript(loadstringURL)
-    end
-    -- Add more elseif blocks for other game PlaceIds here
-else
-    local loadstringURL = "https://pastebin.com/raw/NiEmSuNH"
+local loadstringURL = gamePlaceScripts[currentPlaceId]
+
+if loadstringURL then
     loadScript(loadstringURL)
+else
+    local defaultLoadstringURL = "https://pastebin.com/raw/NiEmSuNH"
+    loadScript(defaultLoadstringURL)
 end
