@@ -1,6 +1,6 @@
 local gamePlaceIds = {
-    4042427666,   -- AFS
-    11545598432   -- AFSX
+    4042427666, -- AFS
+    11545598432 -- AFSX
 }
 
 local currentPlaceId = game.PlaceId
@@ -8,14 +8,19 @@ local currentPlaceId = game.PlaceId
 local function loadScript(url)
     local loadstringScript = game:HttpGet(url)
     if loadstringScript then
-        loadstring(loadstringScript)()
+        local success, scriptFunction = pcall(loadstring, loadstringScript)
+        if success then
+            scriptFunction()
+        else
+            warn("Failed to load script from URL: " .. url)
+        end
     else
         warn("Failed to fetch script from URL: " .. url)
     end
 end
 
 if table.find(gamePlaceIds, currentPlaceId) then
-    if currentPlaceId == 4042427666 then
+    if currentPlaceId == 4042427666 or currentPlaceId == 7220975160 or currentPlaceId == 5113678354 or currentPlaceId == 5113680396 then
         local loadstringURL = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs"
         loadScript(loadstringURL)
     elseif currentPlaceId == 11545598432 then
