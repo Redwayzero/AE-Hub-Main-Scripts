@@ -1,7 +1,13 @@
 local gamePlaceScripts = {
-    [4042427666] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS
+    [4042427666] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 1
     [11545598432] = "https://raw.githubusercontent.com/Redwayzero/AE-Afsx-/main/AE%20Afsx", -- AFSX
-    [7220975160] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS
+    [7220975160] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dungeon 1 
+    [7220986579] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dungeon 2
+    [5113678354] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 2
+    [5113680396] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 3 
+    [5445525505] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 4
+    [6479720355] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 5
+    [9386500519] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 6
 }
 
 local currentPlaceId = game.PlaceId
