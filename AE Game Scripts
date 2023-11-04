@@ -8,6 +8,9 @@ local gamePlaceScripts = {
     [5445525505] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 4
     [6479720355] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 5
     [9386500519] = "https://raw.githubusercontent.com/Redwayzero/AE-AFS-/main/AE%20Afs", -- AFS Dimension 6
+    [3101667897] = "", -- Legends of speed main
+    [3232996272] = "", -- Legends of speed outer space
+    [3276265788] = "", -- Legends of speed desert
 }
 
 local currentPlaceId = game.PlaceId
